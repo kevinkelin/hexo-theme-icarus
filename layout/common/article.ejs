@@ -31,6 +31,15 @@
             <% } %>
             <%- post.content %>
         <% } %>
+        
+        <% if (page.excerpt || !index){ %>
+        <%- partial('post/copyright') %>
+        <br><br>
+        <% if (post.donate == undefined || post.donate != false){ %>
+        <%- partial('post/donate') %>        
+        <% } %>
+        <% } %>
+        
         </div>
         <footer class="article-footer">
             <%- partial('share/index', { post: post }) %>
