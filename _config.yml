@@ -22,7 +22,7 @@ customize:
         author_title: 自由翱翔的天空
         location: BeiJing, China
         follow: http://github.com/kevinkelin
-    highlight: darkula
+    highlight: Github
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
